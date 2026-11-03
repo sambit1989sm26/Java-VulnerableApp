@@ -60,6 +60,10 @@ New to the project? Watch this OWASP Spotlight session for a high-level overview
 ![Scanner Benchmark](docs/gifs/scanner-benchmark.gif)
 
 ### Running the project
+
+> [!WARNING]
+> VulnerableApp is deliberately vulnerable. Run it only on your own machine, in a VM, or in a Docker container, and never expose it to the internet. See the [Security Policy](SECURITY.md) for what to report, what not to report, and how to run it safely.
+
 There are 2 ways to run the project:
 1. The simplest way to run the project is using Docker containers which will run the full-fleged VulnerableApplication with all the components. For running as Docker application, follow following steps:
     1. Download and Install [Docker Compose](https://docs.docker.com/compose/install/) 
@@ -168,7 +172,7 @@ schemas, matching rules, canonical vulnerability-type vocabulary, and `curl`
 examples.
 
 ## Contact
-In case you are stuck with any of the steps or understanding anything related to project and its goals, feel free to shoot a mail at karan.sasan@owasp.org or raise an [issue](https://github.com/SasanLabs/VulnerableApp/issues) and we will try our best to help you.
+In case you are stuck with any of the steps or understanding anything related to project and its goals, feel free to shoot a mail at karan.sasan@owasp.org or raise an [issue](https://github.com/SasanLabs/VulnerableApp/issues), and we will try our best to help you.
 
 ## Documentation and References
 
@@ -178,6 +182,7 @@ In case you are stuck with any of the steps or understanding anything related to
 4. [Design Documentation](https://sasanlabs.github.io/VulnerableApp/DesignDocumentation.html)
 5. [Owasp VulnerableApp](https://owasp.org/www-project-vulnerableapp/)
 6. [Overview Video](https://www.youtube.com/watch?v=AjL4B-WwrrA&ab_channel=OwaspVulnerableApp)
+7. [Security Policy](SECURITY.md)
 
 ### Blogs
 1. [Overview of Owasp-VulnerableApp - Medium article](https://hussaina-begum.medium.com/an-extensible-vulnerable-application-for-testing-the-vulnerability-scanning-tools-cc98f0d94dbc)
